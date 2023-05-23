@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './Home.css';
+import Navbar from './NavBar';
 import { Link, useNavigate  } from 'react-router-dom';
 
 
@@ -18,10 +19,12 @@ function Home() {
   }
 
   return (
-    <div className="container">
-      <div className="card-container">
-        {produtos.map((produto) => (
-          <div className="card" key={produto.id}>
+    <div>
+      <Navbar />
+      <div className="container">
+        <div className="card-container">
+          {produtos.map((produto) => (
+            <div className="card" key={produto.id}>
             <img src={produto.image} alt={produto.title} />
             <h3>{produto.title}</h3>
             <p>{produto.price}</p>
@@ -31,6 +34,8 @@ function Home() {
         ))}
       </div>
     </div>
+    </div>
+    
   );
 }
 
