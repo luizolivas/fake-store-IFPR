@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Home.css';
 import Navbar from './NavBar';
+import Footer from './Footer';
 import { Link, useNavigate  } from 'react-router-dom';
 
 
@@ -19,7 +20,7 @@ function Home() {
   }
 
   return (
-    <div>
+    <div className='main'>
       <Navbar />
       <div className="container">
         <div className="card-container">
@@ -34,6 +35,7 @@ function Home() {
         ))}
       </div>
     </div>
+    <Footer />
     </div>
     
   );

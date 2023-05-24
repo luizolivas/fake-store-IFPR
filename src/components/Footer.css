@@ -1,0 +1,35 @@
+.footer {
+    background-color: #5d9765;
+    height: 60px;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #fff;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .footer-item {
+    margin-right: 10px;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .footer-link:hover {
+    color: #000;
+  }
+  
