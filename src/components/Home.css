@@ -25,7 +25,7 @@
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background: #4e9faa;
+    background: #fff;
   }
   
   .card img {
@@ -37,9 +37,36 @@
   
   .card h3 {
     margin-top: 10px;
+    color: rgb(0, 0, 0);
   }
   
   .card p {
     margin: 10px 0;
+    color: rgb(0, 0, 0)
+  }
+
+  .rating h2{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .rating {
+    align-items: center;
+  }
+  
+  .rating h2, img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+  .rating img {
+    width: 1.5em; /* Tamanho proporcional à fonte */
+    height: auto; /* Manter a proporção */
+  }  
+
+  .card button{
+    background-color: rgb(194, 104, 2);
   }
   
