@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-container">
-            <p className="footer-logo">FAKE SHOP</p>
+            <p className="footer-logo">T. STORE</p>
         </div>
     </div>
   );

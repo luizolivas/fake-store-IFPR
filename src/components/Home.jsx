@@ -29,13 +29,12 @@ function Home() {
           {produtos.map((produto) => (
             <div className="card" key={produto.id}>
             <img src={produto.image} alt={produto.title} />
-              <div className='rating'>
+              <div className='ratingProd'>
                 <h2>Avaliação: {produto.rating.rate}</h2>
                 <img className='image' src={star}></img>
-               </div>
+              </div>
             <h3>{produto.title}</h3>
-            <p className='ProductPrice'>R${produto.price}</p>
- 
+            <p className='product-price'>R${produto.price}</p>
             <button className='button' onClick={() => irTelaDetalhe(produto.id)}> Ver Detalhes </button>
           </div>
         ))}

@@ -27,6 +27,13 @@
     text-align: center;
     background: #fff;
   }
+
+  .card product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #03ce1e;
+    margin-bottom: 10px;
+  }
   
   .card img {
     width: 100%;
@@ -45,28 +52,28 @@
     color: rgb(0, 0, 0)
   }
 
-  .rating h2{
+  .ratingProd h2{
     color: rgb(0, 0, 0);
     font-size: 1.5em;
     text-align: center;
   }
 
-  .rating {
+  .ratingProd {
     align-items: center;
   }
   
-  .rating h2, img {
+  .ratingProd h2, img {
     display: inline-block;
     vertical-align: middle;
   }
   
   
-  .rating img {
+  .ratingProd img {
     width: 1.5em; /* Tamanho proporcional à fonte */
     height: auto; /* Manter a proporção */
   }  
 
   .card button{
-    background-color: rgb(194, 104, 2);
+    background-color: rgb(219, 117, 1);
   }
   
